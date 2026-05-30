@@ -1,4 +1,4 @@
-{% set version = "1.11.0" %}
+{% set version = "1.11.1" %}
 
 package:
   name: sigmf
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/s/sigmf/sigmf-{{ version }}.tar.gz
-  sha256: dda43bee94e52f5df97edfa139e48a3d884db1c4e80c96555cebcaeff6e05e2f
+  sha256: 2d5745f200631f3abfb93a5baccc799f87e57bad901a624abf4468fc3a11ec16
 
 build:
   entry_points:
