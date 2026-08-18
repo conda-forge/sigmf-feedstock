@@ -1,12 +1,12 @@
-{% set version = "1.11.1" %}
+{% set version = "1.12.0" %}
 
 package:
   name: sigmf
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/s/sigmf/sigmf-{{ version }}.tar.gz
-  sha256: 2d5745f200631f3abfb93a5baccc799f87e57bad901a624abf4468fc3a11ec16
+  url: https://files.pythonhosted.org/packages/source/s/sigmf/sigmf-{{ version }}.tar.gz
+  sha256: 9543fcfad4c74e086c8035fe30a0966ab270de88faccbcaf2db389b87cf7c334
 
 build:
   entry_points:
