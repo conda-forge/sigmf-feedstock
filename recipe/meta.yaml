@@ -1,4 +1,4 @@
-{% set version = "1.12.0" %}
+{% set version = "1.13.0" %}
 
 package:
   name: sigmf
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/s/sigmf/sigmf-{{ version }}.tar.gz
-  sha256: 9543fcfad4c74e086c8035fe30a0966ab270de88faccbcaf2db389b87cf7c334
+  sha256: e59df0f9bc111c5bc0cbe655e62666de69cd5cdff5e7fa8cc4f539557466ab1b
 
 build:
   entry_points:
